@@ -1,0 +1,201 @@
+{
+  "properties": [
+    {
+      "id":"prop1",
+      "type":"House",
+      "bedrooms":3,
+      "price":750000,
+      "tenure":"Freehold",
+      "description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+      "floorPlan": "/images/prop1/prop1floorplan.webp",
+      "location":"Petts Wood Road, Petts Wood, Orpington BR5",
+      "picture":"/images/prop1/prop1img1.webp",
+      "images": [
+          "/images/prop1/prop1img1.webp",
+          "/images/prop1/prop1img2.webp",
+          "/images/prop1/prop1img3.webp",
+          "/images/prop1/prop1img4.webp",
+          "/images/prop1/prop1img5.webp",
+          "/images/prop1/prop1img6.webp",
+          "/images/prop1/prop1img7.webp",
+          "/images/prop1/prop1img8.webp"
+      ],
+      "url":"/properties/prop1.html",
+      
+      "added":{
+        "month":"October",
+        "day":12,
+        "year":2022
+        
+      }
+    },
+    {
+      "id":"prop2",
+      "type":"Flat",
+      "bedrooms":2,
+      "price":399995,
+      "tenure":"Freehold",
+      "description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
+      "floorPlan": "/images/prop2/prop2floorplan.webp",
+      "location":"Crofton Road Orpington BR6",
+      "picture":"/images/prop2/prop2img1.webp",
+      "images": [
+          "/images/prop2/prop2img1.webp",
+          "/images/prop2/prop2img2.webp",
+          "/images/prop2/prop2img3.webp",
+          "/images/prop2/prop2img4.webp",
+          "/images/prop2/prop2img5.webp",
+          "/images/prop2/prop2img6.webp",
+          "/images/prop2/prop2img7.webp"
+          
+      ],
+      "url":"/properties/prop2.html",
+      "added":{
+        "month":"September",
+        "day":14,
+        "year":2022
+      }
+    },
+    {
+      "id":"prop3",
+      "type":"Flat",
+      "bedrooms":1,
+      "price":250000,
+      "tenure":"Leasehold",
+      "description":"Well-presented one bedroom apartment ideally located in the heart of Central London, offering convenient access to transport links, shops, restaurants, and local amenities. The property features a bright open-plan living and dining area, a modern fitted kitchen with integrated appliances, and a spacious double bedroom with built-in storage. The bathroom is finished to a high standard with contemporary fittings. Additional benefits include double glazing, secure entry system, and well-maintained communal areas. This property is ideal for first-time buyers, professionals, or investors looking for a strong rental opportunity in a prime central location...",
+
+      "floorPlan": "/images/prop3/prop3floorplan.webp",
+      "location":"Central London NW1",
+      "picture":"/images/prop3/prop3img1.webp",
+      "images": [
+          "/images/prop3/prop3img1.webp",
+          "/images/prop3/prop3img2.webp",
+          "/images/prop3/prop3img3.webp",
+          "/images/prop3/prop3img4.webp",
+          "/images/prop3/prop3img5.webp",
+          "/images/prop3/prop3img6.webp",
+          "/images/prop3/prop3img7.webp"
+          
+      ],
+      "url":"/properties/prop3.html",
+      "added":{
+        "month":"November",
+        "day":5,
+        "year":2025
+      }
+    },
+    {
+      "id":"prop4",
+      "type":"House",
+      "bedrooms":4,
+      "price":800000,
+      "tenure":"Freehold",
+      "description":"A substantial and well-proportioned four bedroom family home situated in a popular residential area of Brixton. This spacious property offers generous living accommodation including two reception rooms, a modern fitted kitchen with ample storage, and a dining area ideal for entertaining. Upstairs comprises four well-sized bedrooms and a contemporary family bathroom. The property further benefits from a private rear garden, gas central heating, and double glazing throughout. Conveniently located within easy reach of local schools, parks, shops, and excellent transport links into Central London, this home is perfect for growing families..."
+,
+      "floorPlan": "/images/prop4/prop4floorplan.webp",
+      "location":"Brixton SW2",
+      "picture":"/images/prop4/prop4img1.webp",
+      "images": [
+          "/images/prop4/prop4img1.webp",
+          "/images/prop4/prop4img2.webp",
+          "/images/prop4/prop4img3.webp",
+          "/images/prop4/prop4img4.webp",
+          "/images/prop4/prop4img5.webp",
+          "/images/prop4/prop4img6.webp",
+          "/images/prop4/prop4img7.webp",
+          "/images/prop4/prop4img8.webp"
+          
+      ],
+      "url":"/properties/prop4.html",
+      "added":{
+        "month":"March",
+        "day":20,
+        "year":2023
+      }
+    },
+    {
+      "id":"prop5",
+      "type":"Flat",
+      "bedrooms":2,
+      "price":350000,
+      "tenure":"Leasehold",
+      "description":"A stylish and modern two bedroom apartment located in the sought-after Canary Wharf area. The property boasts a bright open-plan living space with floor-to-ceiling windows, a fully fitted kitchen with integrated appliances, and two well-proportioned bedrooms. The master bedroom benefits from built-in wardrobes, while the bathroom is finished with contemporary fittings. Residents enjoy secure entry, lift access, and proximity to riverside walks, shopping centres, restaurants, and excellent transport connections. This property represents an excellent opportunity for professionals or investors seeking a high-demand location..."
+,
+      "floorPlan": "/images/prop5/prop5floorplan.webp",
+      "location":"Canary Wharf E14",
+      "picture":"/images/prop5/prop5img1.webp",
+      "images": [
+          "/images/prop5/prop5img1.webp",
+          "/images/prop5/prop5img2.webp",
+          "/images/prop5/prop5img3.webp",
+          "/images/prop5/prop5img4.webp",
+          "/images/prop5/prop5img5.webp",
+          "/images/prop5/prop5img6.webp"
+          
+      ],
+      "url":"/properties/prop5.html",
+      "added":{
+        "month":"June",
+        "day":15,
+        "year":2024
+      }
+    },
+    {
+      "id":"prop6",
+      "type":"House",
+      "bedrooms":5,
+      "price":1000000,
+      "tenure":"Freehold",
+      "description":"An impressive five bedroom luxury detached home set within a desirable residential area of Bromley. This exceptional property offers expansive living accommodation including multiple reception rooms, a high-specification kitchen with modern appliances, and spacious bedrooms throughout. The property also features luxury bathrooms, ample storage, and high-quality finishes. Externally, the home benefits from a beautifully landscaped garden, private driveway, and excellent privacy. Ideally located close to reputable schools, green spaces, and transport links, this outstanding property is perfect for families seeking comfort, space, and prestige..."
+,
+      "floorPlan": "/images/prop6/prop6floorplan.webp",
+      "location":"Bromley BR1",
+      "picture":"/images/prop6/prop6img1.webp",
+      "images": [
+          "/images/prop6/prop6img1.webp",
+          "/images/prop6/prop6img2.webp",
+          "/images/prop6/prop2img6.webp",
+          "/images/prop6/prop6img4.webp",
+          "/images/prop6/prop6img5.webp",
+          "/images/prop6/prop6img6.webp"
+          
+          
+      ],
+      "url":"/properties/prop6.html",
+      "added":{
+        "month":"January",
+        "day":10,
+        "year":2022
+      }
+    },
+    {
+      "id":"prop7",
+      "type":"Flat",
+      "bedrooms":3,
+      "price":500000,
+      "tenure":"Leasehold",
+      "description":"A spacious and well-maintained three bedroom apartment located in the vibrant Camden area of North London. The property comprises a large living room with plenty of natural light, a modern fitted kitchen, and three generously sized bedrooms. The bathroom features contemporary fittings and the property benefits from ample storage throughout. Situated close to local shops, cafes, schools, and excellent transport links, this apartment offers both convenience and comfort. Ideal for families, professionals, or investors looking to purchase in a popular and well-connected London location..."
+,
+      "floorPlan": "/images/prop7/prop7floorplan.webp",
+      "location":"Camden NW1",
+      "picture":"/images/prop7/prop7img1.webp",
+      "images": [
+          "/images/prop7/prop7img1.webp",
+          "/images/prop7/prop7img2.webp",
+          "/images/prop7/prop7img3.webp",
+          "/images/prop7/prop7img4.webp",
+          "/images/prop7/prop7img5.webp",
+          "/images/prop7/prop7img6.webp"
+          
+          
+      ],
+      "url":"/properties/prop7.html",
+      "added":{
+        "month":"September",
+        "day":25,
+        "year":2025
+      }
+    
+    }
+  ]
+}
