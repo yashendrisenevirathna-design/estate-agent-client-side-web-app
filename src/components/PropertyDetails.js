@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
@@ -7,12 +7,16 @@ import 'react-tabs/style/react-tabs.css';
 import { FavoritesContext } from '../context/FavoritesContext';
 
 const PropertyDetails = ({ properties }) => {
+  //  Hooks FIRST (always executed)
+  const { addFavorite } = useContext(FavoritesContext);
   const { id } = useParams();
+
   const property = properties.find(p => p.id === id);
 
-  if (!property) return <p>Property not found</p>;
-
-  const { addFavorite } = useContext(FavoritesContext);
+  //  Conditional AFTER hooks
+  if (!property) {
+    return <p>Property not found</p>;
+  }
 
   // Build gallery safely
   const images = property.images.map((img, index) => ({
@@ -76,7 +80,6 @@ const PropertyDetails = ({ properties }) => {
             <p style={{ textAlign: 'center' }}>Floor plan not available</p>
           )}
         </TabPanel>
-
 
         <TabPanel>
           <iframe
