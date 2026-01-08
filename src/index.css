@@ -1,13 +1,137 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  background-color: #f8f9fa; /* Light grey bg like Rightmove */
+  color: #333333; /* Dark grey text */
+  padding: 20px;
+}
+header {
+  background-color: #779eb9;
+  padding: 10px;
+  text-align: center;
+  text-decoration-color: #000102;
+  font-size: larger;
+}
+footer{
+  background-color: #779eb9;
+  padding: 10px;
+  text-align: center;
+  text-decoration-color: #000102;
+}
+h2{
+  text-align: center;
+}
+.app-container {
+  display: flex;
+  flex-direction: row;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.search-form {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  max-width: 300px;
+  
+}
+
+.search-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.results-section {
+  background: transparent;
+}
+
+.property-card {
+  display: flex;
+  gap: 15px;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.property-card img {
+  width: 120px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.property-info {
+  flex: 1;
+  text-align: left;
+  display: flex;
+}
+
+
+.favorites-sidebar {
+  background: rgb(189, 227, 75);
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 200px;
+  
+  
+}
+
+button {
+  background-color: #6e0aeb; /* Purple like Rightmove */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5a00c7; /* Darker purple */
+}
+
+a {
+  color: #004889; /* Blue links like Rightmove */
+  text-decoration: none;
+}
+
+/*Search page on small screens*/
+@media (max-width: 1024px) {
+
+  /* Stack everything vertically */
+  .app-container {
+    flex-direction: column;
+  }
+
+  /* Search form full width */
+  .search-form {
+    max-width: 100%;
+  }
+
+  /* Favorites move below results */
+  .favorites-sidebar {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  /* Property grid adapts */
+  .property-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+}
+/*property details page-small screens*/
+@media (max-width: 1024px) {
+
+  .property-details {
+    flex-direction: column;
+  }
+
+  .property-images,
+  .property-info {
+    width: 100%;
+  }
 }

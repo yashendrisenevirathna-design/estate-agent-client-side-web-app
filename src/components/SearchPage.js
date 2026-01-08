@@ -59,7 +59,7 @@ const SearchPage = ({ properties }) => {
       <SearchForm onSearch={handleSearch} />
     </div>
 
-    {/* MIDDLE: Results */}
+    {/* MIDDLE: Results section */}
     <div className="results-section">
       <h2>Search Results</h2>
 
