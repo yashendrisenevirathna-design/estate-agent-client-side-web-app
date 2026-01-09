@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import React, { useContext } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
@@ -7,21 +7,18 @@ import 'react-tabs/style/react-tabs.css';
 import { FavoritesContext } from '../context/FavoritesContext';
 
 const PropertyDetails = ({ properties }) => {
-  //  Hooks FIRST (always executed)
   const { addFavorite } = useContext(FavoritesContext);
   const { id } = useParams();
-
   const property = properties.find(p => p.id === id);
 
-  //  Conditional AFTER hooks
-  if (!property) {
-    return <p>Property not found</p>;
-  }
+  if (!property) return <p>Property not found</p>;
+
+  
 
   // Build gallery safely
   const images = property.images.map((img, index) => ({
-    original: img,
-    thumbnail: property.thumbnails?.[index] || img
+    original: process.env.PUBLIC_URL +img,
+    thumbnail: property.thumbnails?.[index] || process.env.PUBLIC_URL +img
   }));
 
   return (
@@ -65,7 +62,7 @@ const PropertyDetails = ({ properties }) => {
         <TabPanel>
           {property.floorPlan ? (
             <img
-              src={property.floorPlan}
+              src={process.env.PUBLIC_URL +property.floorPlan}
               alt="Floor Plan"
               style={{
                 width: '100%',
@@ -80,6 +77,7 @@ const PropertyDetails = ({ properties }) => {
             <p style={{ textAlign: 'center' }}>Floor plan not available</p>
           )}
         </TabPanel>
+
 
         <TabPanel>
           <iframe

@@ -5,7 +5,11 @@ const PropertyList = ({ properties, onAddFavorite }) => (
   <div className="property-grid">
     {properties.map(p => (
       <div key={p.id} className="property-card">
-        <img src={p.picture} alt={p.type} style={{ width: '100%' }} />
+        <img
+          src={process.env.PUBLIC_URL +p.picture}
+          alt={p.type}
+          style={{ width: '100%' }}
+        />
 
         <h3 style={{ color: '#6e0aeb' }}>
           £{p.price.toLocaleString()}
